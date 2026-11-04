@@ -94,6 +94,7 @@ DATASETS = {
     "titanic.csv": lambda: sns.load_dataset("titanic"),
     "penguins.csv": lambda: sns.load_dataset("penguins"),
     "tips.csv": lambda: sns.load_dataset("tips"),
+    "mpg.csv": lambda: sns.load_dataset("mpg"),
     # scikit-learn (iris y breast_cancer vienen incluidos; california_housing se descarga)
     "iris.csv": lambda: datasets.load_iris(as_frame=True).frame,
     "breast_cancer.csv": lambda: datasets.load_breast_cancer(as_frame=True).frame,
